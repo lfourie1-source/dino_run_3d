@@ -1,0 +1,7 @@
+Asset,Type,Source / Creator,Tool / Model,License / Terms,Notes
+index.html + src/game.js + assets/css/styles.css,Code / procedural visuals,Project creator + OpenAI ChatGPT GPT-5.6 Sol,OpenAI ChatGPT,User-authored project with AI coding assistance,No copied third-party game code/assets
+assets/audio/background.mp3,Background music,AI-generated audio supplied by project creator,ElevenLabs,ElevenLabs terms applicable to creator account at time of generation,Original: Lobby_Lounge_Runner_2026-10-06T225606.mp3
+assets/audio/dying.mp3,Death sound effect,AI-generated audio supplied by project creator,ElevenLabs,ElevenLabs terms applicable to creator account at time of generation,Plays at game over; music stops
+assets/audio/jump.mp3,Jump sound effect,AI-generated audio supplied by project creator,ElevenLabs,ElevenLabs terms applicable to creator account at time of generation,Trimmed silence from uploaded clip
+assets/audio/victory.mp3,Victory / biome shift sound,AI-generated audio supplied by project creator,ElevenLabs,ElevenLabs terms applicable to creator account at time of generation,Plays at each 500-point dimension shift
+Chrome Dino concept,Gameplay reference,Google Chrome offline dinosaur game,N/A,Reference only,"No source code, sprites, or audio copied"

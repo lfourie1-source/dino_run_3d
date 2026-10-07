@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>Blocky Dino Dimension Run</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<canvas id="game" aria-label="Blocky Dino Dimension Run game canvas"></canvas>
+<div id="hud"><span>DIMENSION <b id="dim">1</b></span><div id="stats"><span>SCORE <b id="score">0</b></span><span>HIGH <b id="high">0</b></span></div></div>
+<div id="shift">DIMENSION SHIFT</div>
+<div id="start"><div class="panel"><h1>BLOCKY DINO RUN</h1><p>Press PLAY, then use A / D and SPACE. On mobile, use the on-screen controls.</p><button id="play" type="button">PLAY</button></div></div>
+<div id="over"><div class="panel"><h1>GAME OVER</h1><p>SCORE <b id="finalScore">0</b></p><p>HIGH SCORE <b id="finalHigh">0</b></p><button id="restart" type="button">RESTART</button></div></div>
+<div id="mobileControls" aria-label="Mobile game controls">
+  <button id="touchLeft" type="button" aria-label="Move left">←</button>
+  <button id="touchJump" type="button" aria-label="Jump">JUMP</button>
+  <button id="touchRight" type="button" aria-label="Move right">→</button>
+</div>
+<audio id="music" loop preload="metadata" src="assets/audio/background.mp3"></audio>
+<audio id="death" preload="auto" src="assets/audio/dying.mp3"></audio>
+<audio id="victorySfx" preload="auto" src="assets/audio/victory.mp3"></audio>
+<audio id="jumpSfx" preload="auto" src="assets/audio/jump.mp3"></audio>
+<script src="src/game.js"></script>
+</body>
+</html>
